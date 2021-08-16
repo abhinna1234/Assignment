@@ -1,5 +1,5 @@
-// Welcome6.java
-public class Welcome6 {
+// Welcome7.java
+public class Welcome7 {
     private All all;
 
     public All getAll() { return all; }
@@ -87,6 +87,7 @@ public class Dev {
 }
 
 // Childres.java
+
 public class Childres {
     private Commvault generic;
     private Commvault iis;
@@ -107,21 +108,10 @@ public class Childres {
 }
 
 // Commvault.java
+
 public class Commvault {
-    private Hosts hosts;
+    private String hosts;
 
-    public Hosts getHosts() { return hosts; }
-    public void setHosts(Hosts value) { this.hosts = value; }
-}
-
-// Hosts.java
-public class Hosts {
-    private Object host1;
-    private Object host2;
-
-    public Object getHost1() { return host1; }
-    public void setHost1(Object value) { this.host1 = value; }
-
-    public Object getHost2() { return host2; }
-    public void setHost2(Object value) { this.host2 = value; }
+    public String getHosts() { return hosts; }
+    public void setHosts(String value) { this.hosts = value; }
 }
