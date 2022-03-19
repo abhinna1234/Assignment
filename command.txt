@@ -1,0 +1,1 @@
+plink -batch -i VMPrivate.ppk  vagrant@192.168.129.20 sudo /opt/tomcat/bin/shutdown.sh
